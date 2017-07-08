@@ -1,18 +1,18 @@
 public class Demo_02 {
-
+//æ‰“å°å¹³è¡Œå››è¾¹å½¢
 	public static void main(String[] args) {
 		
-			//Íâ²ã¿ØÖÆĞĞ   6-1-i
+			//å¤–å±‚æ§åˆ¶è¡Œ   6-1-i
 			for(int i=0; i<6; i++) {
-				//ÄÚ²ã¿ØÖÆ" "
+				//å†…å±‚æ§åˆ¶" "
 				for(int j=0; j<5-i; j++) {
 					System.out.print("-");
 				}
-				//ÄÚ²ã¿ØÖÆ "*"
+				//å†…å±‚æ§åˆ¶ "*"
 				for(int k=0; k<6; k++) {
 					System.out.print("*");
 				}
-				System.out.println();//»»ĞĞ
+				System.out.println();//æ¢è¡Œ
 			}
 		}
 
