@@ -5,7 +5,7 @@ public class B5Paper implements Paper {
 	@Override
 	public String size() {
 		// TODO Auto-generated method stub
-		return "B5÷Ω’≈";
+		return "B5Á∫∏Âº†";
 	}
 
 }
