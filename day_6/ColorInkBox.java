@@ -5,7 +5,7 @@ public class ColorInkBox implements InkBox {
 	@Override
 	public String color() {
 		// TODO Auto-generated method stub
-		return "²ÊÉ«µÄ";
+		return "å½©è‰²çš„";
 	}
 
 }
