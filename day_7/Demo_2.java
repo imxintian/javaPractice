@@ -1,6 +1,6 @@
 package FileDemo;
 /**
- * ¶Á²Ù×÷
+ * è¯»æ“ä½œ
  */
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.IOException;
 public class Demo_2 {
 	public static void main(String[] args)  {
 	try {
-		//¶ÁĞ¡Ëµ
+		//è¯»å°è¯´
 		readNote();
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
@@ -16,17 +16,31 @@ public class Demo_2 {
 	}
 		
 	}
+	//æ³•ä¸€ï¼š
 	private static void readNote() throws IOException {
-		//1 ´´½¨Á÷¶ÔÏó
+		//1 åˆ›å»ºæµå¯¹è±¡
 		FileInputStream fis = new FileInputStream("p:/test/1.txt");
-		//2 ¶ÁÊı¾İ
+		//2 è¯»æ•°æ®
 		int data = 0;
 		while((data=fis.read())!=-1) {
 			System.out.print((char)data);
 		}
-		//3 ¹Ø±Õ×ÊÔ´
+		//3 å…³é—­èµ„æº
 		fis.close();
 	}
+//æ³•äºŒï¼š 
+// 	public static void readNote() throws IOException {
+	
+// 		//1 åˆ›å»ºæµ
+// 		BufferedReader br = new BufferedReader(new FileReader("data.txt"));
+// 		//2 è¯»æ•°æ®
+// 		String line = null;
+// 		while((line = br.readLine())!=null) {
+// 			System.out.println(line);
+// 		}
+// 		//3 å…³é—­èµ„æº
+// 		br.close();
+// 	}
 	
 }
 
